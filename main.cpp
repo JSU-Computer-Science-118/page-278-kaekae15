@@ -40,8 +40,7 @@ int main()
 
     cin >> costOfOneBox;
 
-    cout << "The total money made: "
-         << "cookies: $"
+    cout << "Total money made: $"
          << totalNumOfBoxesSold * costOfOneBox << endl;
 
     if (numOfVolunteers !=0)
