@@ -40,24 +40,22 @@ int main()
     
     cout << endl;
 
-    cout << "Line 26: The total number of boxes sold: "
+    cout << "Total number of boxes sold: "
          << totalNumOfBoxesSold << endl;
 
     cout << "Line 27: Enter the cost one box: ";
     cin >> costOfOneBox;
     cout << endl;
 
-    cout << "Line 30: The total money made by selling "
+    cout << "The total money made: "
          << "cookies: $"
          << totalNumOfBoxesSold * costOfOneBox << endl;
 
     if (numOfVolunteers !=0)
-       cout << "Line 32: The average number of "
-            << "boxes sold by each volunteer: "
-            << totalNumOfBoxesSold / numOfVolunteers
-            << endl;
+       cout << "Average number of boxes sold by each person: "
+            << totalNumOfBoxesSold / numOfVolunteers << endl;
     else
-        cout << "Line 34: No input." << endl;
+        cout << No input." << endl;
 
     return 0;
 }
