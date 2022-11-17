@@ -38,9 +38,7 @@ int main()
     cout << "Total number of boxes sold: "
          << totalNumOfBoxesSold << endl;
 
-    cout << "Enter the cost one box: ";
     cin >> costOfOneBox;
-    cout << endl;
 
     cout << "The total money made: "
          << "cookies: $"
